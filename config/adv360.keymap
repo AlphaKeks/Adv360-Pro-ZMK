@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE           &kp N1    &kp N2     &kp N3  &kp N4  &kp N5            &bootloader                                                                    &tog 2  &kp N6    &kp N7            &kp N8             &kp N9     &kp N0  &kp EQUAL
-   &kp TAB            &kp Q     &kp W      &kp E   &kp R   &kp T                  &none                                                                     &none   &kp Y     &kp U             &kp I              &kp O      &kp P   &kp BSLH
-   &kp ESC            &kp A     &kp S      &kp D   &kp F   &kp G                  &none  &kp LCTRL      &none                     &none  &kp RCTRL          &none   &kp H     &kp J             &kp K              &kp L   &kp FSLH   &kp PLUS
- &kp LSHFT            &kp Z     &kp X      &kp C   &kp V   &kp B                  &none      &none      &none   &none   &none    &trans      &none          &none   &kp N     &kp M  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp RSHFT
- &kp LCTRL  &kp PRINTSCREEN  &kp LEFT  &kp RIGHT   &mo 1                       &kp LGUI  &kp SPACE  &kp LCTRL                  &kp RALT  &kp ENTER  &kp BACKSPACE          &kp SEMI           &kp SQT           &kp LBKT   &kp RBKT      &mo 2
+ &kp GRAVE           &kp N1    &kp N2     &kp N3  &kp N4  &kp N5            &bootloader                                                               &bootloader  &kp N6    &kp N7            &kp N8             &kp N9     &kp N0     &kp EQUAL
+   &kp TAB            &kp Q     &kp W      &kp E   &kp R   &kp T                  &none                                                                     &none   &kp Y     &kp U             &kp I              &kp O      &kp P      &kp BSLH
+   &kp ESC            &kp A     &kp S      &kp D   &kp F   &kp G                  &none  &kp LCTRL      &none                     &none  &kp RCTRL          &none   &kp H     &kp J             &kp K              &kp L   &kp FSLH  &kp ASTERISK
+ &kp LSHFT            &kp Z     &kp X      &kp C   &kp V   &kp B                  &none      &none      &none   &none   &none    &trans      &none          &none   &kp N     &kp M  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp RSHFT
+ &kp LCTRL  &kp PRINTSCREEN  &kp LEFT  &kp RIGHT   &mo 1                       &kp LGUI  &kp SPACE  &kp LCTRL                  &kp RALT  &kp ENTER  &kp BACKSPACE          &kp SEMI           &kp SQT            &kp DQT   &kp RBKT         &mo 2
             >;
         };
 
