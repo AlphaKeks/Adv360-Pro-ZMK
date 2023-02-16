@@ -16,12 +16,6 @@ label = "macro_terminal";
 #binding-cells = <0>;
 bindings = <&kt LGUI>, <&kp RET>, <&kt LGUI>;
 };
-macro_rofi-beats: macro_rofi-beats{
-compatible = "zmk,behavior-macro";
-label = "macro_rofi-beats";
-#binding-cells = <0>;
-bindings = <&kt LGUI>, <&kp M>, <&kt LGUI>;
-};
 macro_rofi: macro_rofi{
 compatible = "zmk,behavior-macro";
 label = "macro_rofi";
