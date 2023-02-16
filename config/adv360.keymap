@@ -36,21 +36,21 @@
 
         default_layer {
             bindings = <
- &kp GRAVE           &kp N1           &kp N2            &kp N3             &kp N4  &kp N5                &bootloader                                                                 &bootloader  &kp N6     &kp N7    &kp N8            &kp N9         &kp N0  &kp EQUAL
-   &kp TAB            &kp Q            &kp W             &kp E              &kp R   &kp T                      &none                                                                       &none   &kp Y      &kp U     &kp I             &kp O          &kp P   &kp BSLH
-   &kp ESC            &kp A            &kp S             &kp D              &kp F   &kp G            &macro_brackets  &kp LCTRL  &kp HOME                  &kp PG_UP  &kp RCTRL  &macro_brackets   &kp H      &kp J     &kp K             &kp L       &kp LEFT  &kp RIGHT
- &kp LSHFT            &kp Z            &kp X             &kp C              &kp V   &kp B                      &none      &none   &kp END   &none   &none  &kp PG_DN      &none            &none   &kp N      &kp M  &kp SEMI  &kp SINGLE_QUOTE      &kp MINUS  &kp RSHFT
- &kp LCTRL  &kp PRINTSCREEN  &macro_brackets  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                          &kp SPACE   &kp LGUI     &mo 1                   &kp RALT  &kp ENTER    &kp BACKSPACE          &kp COMMA   &kp DOT         &kp SLASH  &macro_7480c2    &kp DEL
+ &kp GRAVE           &kp N1           &kp N2    &kp N3     &kp N4  &kp N5                &bootloader                                                                &bootloader  &kp N6     &kp N7            &kp N8             &kp N9         &kp N0         &kp EQUAL
+   &kp TAB            &kp Q            &kp W     &kp E      &kp R   &kp T                      &none                                                             &macro_browser   &kp Y      &kp U             &kp I              &kp O          &kp P          &kp BSLH
+   &kp ESC            &kp A            &kp S     &kp D      &kp F   &kp G            &macro_terminal  &kp LCTRL  &kp HOME                  &kp PG_UP  &kp RCTRL     &macro_rofi   &kp H      &kp J             &kp K              &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
+ &kp LSHFT            &kp Z            &kp X     &kp C      &kp V   &kp B                      &none      &none   &kp END   &none   &none  &kp PG_DN      &none           &none   &kp N      &kp M  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp MINUS         &kp RSHFT
+ &kp LCTRL  &kp PRINTSCREEN  &macro_brackets  &kp LEFT  &kp RIGHT                          &kp SPACE      &mo 1  &kp LGUI                   &kp RALT  &kp ENTER   &kp BACKSPACE          &kp COMMA           &kp DOT          &kp SLASH  &macro_7480c2           &kp DEL
             >;
         };
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3    &kp F7    &kp F8  &kp F9    &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none    &trans    &trans  &trans     &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none    &trans    &trans  &trans     &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans              &trans  &trans     &trans   &trans   &trans
+  &none   &kp F1   &kp F2   &kp F3    &kp F4   &kp F5            &tog 1                                                   &mo 3    &kp F6    &kp F7   &kp F8     &kp F9  &kp F10   &none
+ &trans  &kp F11  &kp F12  &kp F13   &kp F14  &kp F15             &none                                                   &none   &kp F16   &kp F17  &kp F18    &kp F19  &kp F20  &trans
+ &trans   &trans   &trans   &trans    &trans   &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT   &trans  &trans
+ &trans   &trans   &trans   &trans    &trans   &trans             &none   &none  &trans   &none   &none  &trans   &none   &none    &trans    &trans   &trans     &trans   &trans  &trans
+ &trans   &trans   &trans   &kp UP  &kp DOWN                     &trans  &trans  &trans                  &trans  &trans  &trans              &trans   &trans     &trans   &trans  &trans
             >;
         };
 
