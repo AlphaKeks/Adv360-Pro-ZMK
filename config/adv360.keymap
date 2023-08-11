@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE           &kp N1            &kp N2            &kp N3             &kp N4  &kp N5               &bootloader                                                                 &bootloader  &kp N6    &kp N7            &kp N8            &kp N9          &kp N0   &kp MINUS
-   &kp TAB            &kp Q             &kp W             &kp E              &kp R   &kp T               &macro_rofi                                                             &macro_terminal   &kp Y     &kp U             &kp I             &kp O           &kp P   &kp EQUAL
-   &kp ESC            &kp A             &kp S             &kp D              &kp F   &kp G            &kp LEFT_SHIFT  &kp LCTRL  &kp HOME                  &kp PG_UP  &kp RCTRL       &kp RSHIFT   &kp H     &kp J             &kp K             &kp L      &macro_bar    &kp BSLH
- &kp LSHFT            &kp Z             &kp X             &kp C              &kp V   &kp B                     &none      &none   &kp END   &none   &none  &kp PG_DN      &none            &none   &kp N     &kp M         &kp COMMA           &kp DOT       &kp SLASH  &kp RSHIFT
- &kp LCTRL  &kp PRINTSCREEN  &macro_rofibeats  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                         &kp SPACE      &mo 1  &kp LGUI                   &kp RALT  &kp ENTER         &kp BSPC          &kp SEMI  &kp SINGLE_QUOTE  &macro_rofibeats  &macro_browser     &kp DEL
+ &kp GRAVE           &kp N1            &kp N2            &kp N3             &kp N4  &kp N5               &bootloader                                                                            &bootloader  &kp N6    &kp N7            &kp N8            &kp N9          &kp N0   &kp MINUS
+   &kp TAB            &kp Q             &kp W             &kp E              &kp R   &kp T               &macro_rofi                                                                        &macro_terminal   &kp Y     &kp U             &kp I             &kp O           &kp P   &kp EQUAL
+   &kp ESC            &kp A             &kp S             &kp D              &kp F   &kp G            &kp LEFT_SHIFT  &kp LCTRL  &kp HOME                  &kp PG_UP             &kp RCTRL       &kp RSHIFT   &kp H     &kp J             &kp K             &kp L      &macro_bar    &kp BSLH
+ &kp LSHFT            &kp Z             &kp X             &kp C              &kp V   &kp B                     &none      &none   &kp END   &none   &none  &kp PG_DN                 &none            &none   &kp N     &kp M         &kp COMMA           &kp DOT       &kp SLASH  &kp RSHIFT
+ &kp LCTRL  &kp PRINTSCREEN  &macro_rofibeats  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                         &kp SPACE      &mo 1  &kp LGUI                   &kp RALT  &mt ENTER LEFT_SHIFT         &kp BSPC          &kp SEMI  &kp SINGLE_QUOTE  &macro_rofibeats  &macro_browser     &kp DEL
             >;
         };
 
